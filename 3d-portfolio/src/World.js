@@ -4,14 +4,63 @@ export class World {
     constructor(scene) {
         this.scene = scene;
         
+        // this.sections = [
+        //     { t: 0.05, name: "HI! I'M SUNIL", desc: "A Web Devloper, with an Intres in CS. Driving the future of the web with immersive and high-speed experiences.  Scroll is boring — so I built a journey instead. ", type: "hero", done: false },
+        //     { t: 0.20, name: "SKILLS", desc: "I have a passion for PROBLEM-SOLVING and pioneering first principal thinking, driven by purpose and fueled by the challenge of finding solutions, wth a good foundtion in  HTML, CSS, Java, JavaScript, React, Three.js, Python etc. — building responsive and interactive Web applications.", type: "skills", done: false },
+        //     { t: 0.35, name: "ABOUT ME", desc: "I design and develop user-friendly websites with modern technologies .", type: "experience", done: false },
+        //     { t: 0.55, name: "PROJECTS", desc: "Click LIVE VIEW to explore my projects and see my work in action.", github: "#", live: (typeof window !== 'undefined') ? (window.location.origin + '/projects.html') : '/projects.html', buttonText: "LIVE VIEW", type: "project", done: false },
+        //     { t: 0.75, name: "SERVICES", desc: "From lightning-fast landing pages to immersive full-stack platforms — I build web products that stand out.", type: "services", done: false },
+        //     { t: 0.92, name: "CONTACT ME", desc: "Have a project in mind? Let's work together.", buttonText: "CONTACT ME", action: "openContact", type: "contact", done: false }
+        // ];
+
         this.sections = [
-            { t: 0.05, name: "HI — I'M SUNIL", desc: "Driving the future of the web with immersive and high-speed experiences.  Scroll is boring — so I built a journey instead. ", type: "hero", done: false },
-            { t: 0.20, name: "SKILLS", desc: "HTML, CSS, JavaScript, React, Three.js, and Python — building responsive and interactive Web applications.", type: "skills", done: false },
-            { t: 0.35, name: "ABOUT ME", desc: "I design and develop user-friendly websites with modern technologies .", type: "experience", done: false },
-            { t: 0.55, name: "PROJECTS", desc: "Click LIVE VIEW to explore my projects and see my work in action.", github: "#", live: (typeof window !== 'undefined') ? (window.location.origin + '/projects.html') : '/projects.html', buttonText: "LIVE VIEW", type: "project", done: false },
-            { t: 0.75, name: "SERVICES", desc: "From lightning-fast landing pages to immersive full-stack platforms — I build web products that stand out.", type: "services", done: false },
-            { t: 0.92, name: "CONTACT ME", desc: "Have a project in mind? Let's work together.", buttonText: "CONTACT ME", action: "openContact", type: "contact", done: false }
-        ];
+    { 
+        t: 0.05, 
+        name: "HI! I'M SUNIL", 
+        desc: "A Creative Web Developer with a passion for Computer Science. I'm driving the future of the web with immersive, high-speed experiences. Static scrolling is boring — so I built a 3D journey instead.", 
+        type: "hero", 
+        done: false 
+    },
+    { 
+        t: 0.20, 
+        name: "SKILLS", 
+        desc: "I specialize in problem-solving and first-principles thinking. With a strong foundation in HTML, CSS, JavaScript, React, and Three.js, PythonI build responsive 3D applications that push the boundaries of the web.", 
+        type: "skills", 
+        done: false 
+    },
+    { 
+        t: 0.35, 
+        name: "ABOUT ME", 
+        desc: "I am a developer dedicated to crafting user-centric digital experiences. I bridge the gap between design and technology using modern frameworks to create fast, scalable, and visually stunning websites.", 
+        type: "experience", 
+        done: false 
+    },
+    { 
+        t: 0.55, 
+        name: "PROJECTS", 
+        desc: "Innovation in action. Click LIVE VIEW to explore my portfolio of 3D experiments and full-stack web applications.", 
+        live: (typeof window !== 'undefined') ? (window.location.origin + '/projects.html') : '/projects.html', 
+        buttonText: "LIVE VIEW", 
+        type: "project", 
+        done: false 
+    },
+    { 
+        t: 0.75, 
+        name: "SERVICES", 
+        desc: "From lightning-fast landing pages to immersive 3D platforms — I build high-performance web products that help brands stand out in the digital world.", 
+        type: "services", 
+        done: false 
+    },
+    { 
+        t: 0.92, 
+        name: "CONTACT ME", 
+        desc: "Ready to build something extraordinary? Let's collaborate and turn your vision into a digital reality.  \n Instagram: @nill_02s \n GitHub: @codesofsunil", 
+        buttonText: "CONTACT ME", 
+        action: "openContact", 
+        type: "contact", 
+        done: false 
+    }
+];
 
         this.createPath();
         this.initWorld();
