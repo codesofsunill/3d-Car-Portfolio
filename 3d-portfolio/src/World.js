@@ -24,7 +24,7 @@ export class World {
     { 
         t: 0.20, 
         name: "SKILLS", 
-        desc: "I specialize in problem-solving and first-principles thinking. With a strong foundation in HTML, CSS, JavaScript, React, and Three.js, PythonI build responsive 3D applications that push the boundaries of the web.", 
+        desc: "I specialize in problem-solving and first-principles thinking. With a strong foundation in HTML, CSS, JavaScript, React, and Three.js, Python etc. I build responsive 3D applications that push the boundaries of the web.", 
         type: "skills", 
         done: false 
     },
